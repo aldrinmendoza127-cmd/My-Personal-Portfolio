@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mendoza A. | Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a class="header__logo" href="index.html">Mendoza A.</a>
+
+        <button
+          class="header__toggle"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+        </button>
+
+        <nav class="header__nav nav" id="main-nav" aria-label="Main">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="index.html#hero">Hero</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="hobbies.html"
+                >Hobbies &amp; Interests</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="gallery.html" aria-current="page"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="favorites.html">Favorites</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="dreams.html">Dreams</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="page__body">
+        <aside class="page__sidebar card">
+          <div class="card__photo">
+            <img
+              class="card__img"
+              src="assets/aldrin__hero-image.png"
+              alt="Portrait photo"
+            />
+          </div>
+          <h2 class="card__name">Aldrin Mendoza</h2>
+          <p class="card__bio">Computer Science Student - BSCS 1A</p>
+          <ul class="card__socials">
+            <li><a class="card__social" href="#">Instagram</a></li>
+            <li><a class="card__social" href="#">GitHub</a></li>
+            <li><a class="card__social" href="#">YouTube</a></li>
+          </ul>
+        </aside>
+
+        <main class="page__content">
+          <section class="section intro gallery" id="gallery">
+            <h1 class="section__title">My Gallery</h1>
+            <p class="section__text gallery__intro">
+              These photos show moments that matter to me. Each one comes with a
+              short note about why it is special.
+            </p>
+            <ul class="gallery__grid">
+              <li class="gallery__item">
+                <figure class="gallery__figure">
+                  <img
+                    class="gallery__img"
+                    src="assets/photo1.jpg"
+                    alt="A childhood memory"
+                  />
+                  <figcaption class="gallery__body">
+                    <h2 class="gallery__label">College memories</h2>
+                    <p class="gallery__caption">
+                      This picture reminds me of the happy moments I shared with
+                      my friends. I will always treasure these memories.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="gallery__item">
+                <figure class="gallery__figure">
+                  <img
+                    class="gallery__img"
+                    src="assets/photo2.jpg"
+                    alt="With family or friends"
+                  />
+                  <figcaption class="gallery__body">
+                    <h2 class="gallery__label">Hanging out with Friends</h2>
+                    <p class="gallery__caption">
+                      This picture shows me and my friend having fun together. I
+                      am thankful to have friends who make my life more
+                      enjoyable.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="gallery__item">
+                <figure class="gallery__figure">
+                  <img
+                    class="gallery__img"
+                    src="assets/photo3.jpg"
+                    alt="A school activity or event"
+                  />
+                  <figcaption class="gallery__body">
+                    <h2 class="gallery__label">School activities and events</h2>
+                    <p class="gallery__caption">
+                      This picture was taken during a school trip (edukcircle).
+                      I enjoyed the experience and spending time with my
+                      Friends.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="gallery__item">
+                <figure class="gallery__figure">
+                  <img
+                    class="gallery__img"
+                    src="assets/photo4.jpg"
+                    alt="A travel experience"
+                  />
+                  <figcaption class="gallery__body">
+                    <h2 class="gallery__label">Travel experiences</h2>
+                    <p class="gallery__caption">
+                      This was one of our memorable trips. We enjoyed the
+                      beautiful place, had fun, and took pictures together.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="gallery__item">
+                <figure class="gallery__figure">
+                  <img
+                    class="gallery__img"
+                    src="assets/photo5.jpg"
+                    alt="A celebration or special occasion"
+                  />
+                  <figcaption class="gallery__body">
+                    <h2 class="gallery__label">
+                      Celebrations and special occasions
+                    </h2>
+                    <p class="gallery__caption">
+                      This picture was taken with my friends during one of our
+                      fun moments together. We enjoyed taking pictures and
+                      spending time with each other.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="gallery__item">
+                <figure class="gallery__figure">
+                  <img
+                    class="gallery__img"
+                    src="assets/photo6.jpg"
+                    alt="Another memorable experience"
+                  />
+                  <figcaption class="gallery__body">
+                    <h2 class="gallery__label">Other memorable experiences</h2>
+                    <p class="gallery__caption">
+                      This was taken at the SM North Edsa mall with my
+                      classmates/friends. We had fun together and created happy
+                      memories.
+                    </p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__col footer__col--left">
+          <ul class="footer__contact">
+            <li class="footer__item">
+              <i
+                class="footer__icon fa-solid fa-envelope"
+                aria-hidden="true"
+              ></i>
+              <a class="footer__link" href="mailto:0326-1511@lspu.edu.ph"
+                >0326-1511@lspu.edu.ph</a
+              >
+            </li>
+            <li class="footer__item">
+              <i class="footer__icon fa-solid fa-phone" aria-hidden="true"></i>
+              <a class="footer__link" href="tel:+639953609627"
+                >+63 995 3609 627</a
+              >
+            </li>
+            <li class="footer__item">
+              <i
+                class="footer__icon fa-solid fa-location-dot"
+                aria-hidden="true"
+              ></i>
+              <address class="footer__address">San Pablo City, Laguna</address>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--center">
+          <p class="footer__copy">
+            &copy; PlaceHolder. All rights reserved.<br />
+            Designed, coded and made by PlaceHolder.
+          </p>
+        </div>
+
+        <div class="footer__col footer__col--right">
+          <ul class="footer__socials">
+            <li>
+              <a class="footer__social" href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="X">
+                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const header = document.querySelector(".header");
+      const toggle = document.querySelector(".header__toggle");
+
+      function setMenu(open) {
+        header.classList.toggle("header--open", open);
+        toggle.setAttribute("aria-expanded", open);
+      }
+
+      toggle.addEventListener("click", () => {
+        setMenu(!header.classList.contains("header--open"));
+      });
+
+      document.querySelectorAll(".nav__link").forEach((link) => {
+        link.addEventListener("click", () => setMenu(false));
+      });
+    </script>
+    <script src="script.js" defer></script>
+  </body>
+</html>

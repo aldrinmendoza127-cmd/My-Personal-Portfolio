@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mendoza A. | Favorites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a class="header__logo" href="index.html">Mendoza A.</a>
+
+        <button
+          class="header__toggle"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+        </button>
+
+        <nav class="header__nav nav" id="main-nav" aria-label="Main">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="index.html#hero">Hero</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="hobbies.html"
+                >Hobbies &amp; Interests</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="favorites.html" aria-current="page"
+                >Favorites</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="dreams.html">Dreams</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="page__body">
+        <aside class="page__sidebar card">
+          <div class="card__photo">
+            <img
+              class="card__img"
+              src="assets/aldrin__hero-image.png"
+              alt="Portrait photo"
+            />
+          </div>
+          <h2 class="card__name">Aldrin Mendoza</h2>
+          <p class="card__bio">Computer Science Student - BSCS 1A</p>
+          <ul class="card__socials">
+            <li><a class="card__social" href="#">Instagram</a></li>
+            <li><a class="card__social" href="#">GitHub</a></li>
+            <li><a class="card__social" href="#">YouTube</a></li>
+          </ul>
+        </aside>
+
+        <main class="page__content">
+          <section class="section intro favorites" id="favorites">
+            <h1 class="section__title">My Favorites</h1>
+            <p class="section__text favorites__intro">
+              Here are the things I enjoy the most, from what I eat to the words
+              I try to live by.
+            </p>
+            <!-- Add your own jpg files to assets/ using the names below -->
+            <ul class="favorites__list">
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/food.jpg"
+                  alt="Chicken adobo"
+                />
+                <div class="favorites__body">
+                  <h2 class="favorites__label">Favorite food</h2>
+                  <p class="favorites__value">
+                    Chicken adobo. Savory, tangy, and perfect with rice.
+                  </p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/drink.jpg"
+                  alt="A glass of Coke"
+                />
+                <div class="favorites__body">
+                  <h2 class="favorites__label">Favorite drink</h2>
+                  <p class="favorites__value">
+                    Coke. Nothing beats a cold one with a good meal.
+                  </p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/music2.jpg"
+                  alt="Favorite music"
+                />
+                <div class="favorites__body">
+                  <h2 class="favorites__label">Music</h2>
+                  <p class="favorites__value">
+                    Music helps me relax and stay focused after a long day. My
+                    favorite genres are OPM, pop, and R&B. I enjoy listening to
+                    music because it helps improve my mood and makes my free
+                    time more enjoyable.
+                  </p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/movie2.jpg"
+                  alt="Favorite movie or book"
+                />
+                <div class="favorites__body">
+                  <h2 class="favorites__label">Movies and Television</h2>
+                  <p class="favorites__value">
+                    I like watching movies and television series because they
+                    are a great way to relax and enjoy my free time. I
+                    especially enjoy action, comedy, and adventure movies
+                    because they are entertaining and exciting.
+                  </p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/colors.jpg"
+                  alt="Black and white"
+                />
+                <div class="favorites__body">
+                  <h2 class="favorites__label">Favorite colors</h2>
+                  <p class="favorites__value">
+                    Black and white. Simple and bold, which is why this site
+                    follows it.
+                  </p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/place.jpg"
+                  alt="Favorite place"
+                />
+                <div class="favorites__body">
+                  <h2 class="favorites__label">Favorite places</h2>
+                  <p class="favorites__value">
+                    One of my favorite places is the beach because it gives me
+                    peace and helps me relax. I enjoy the beautiful scenery,
+                    fresh air, and the sound of the waves. It is a perfect place
+                    to spend time with family and friends.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <figure class="about__motto">
+              <figcaption class="about__motto-label">Favorite quote</figcaption>
+              <blockquote class="about__motto-text">
+                &ldquo;Never stop learning, because life never stops
+                teaching.&rdquo;
+              </blockquote>
+            </figure>
+          </section>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__col footer__col--left">
+          <ul class="footer__contact">
+            <li class="footer__item">
+              <i
+                class="footer__icon fa-solid fa-envelope"
+                aria-hidden="true"
+              ></i>
+              <a class="footer__link" href="mailto:0326-1511@lspu.edu.ph"
+                >0326-1511@lspu.edu.ph</a
+              >
+            </li>
+            <li class="footer__item">
+              <i class="footer__icon fa-solid fa-phone" aria-hidden="true"></i>
+              <a class="footer__link" href="tel:+639953609627"
+                >+63 995 3609 627</a
+              >
+            </li>
+            <li class="footer__item">
+              <i
+                class="footer__icon fa-solid fa-location-dot"
+                aria-hidden="true"
+              ></i>
+              <address class="footer__address">San Pablo City, Laguna</address>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--center">
+          <p class="footer__copy">
+            &copy; PlaceHolder. All rights reserved.<br />
+            Designed, coded and made by PlaceHolder.
+          </p>
+        </div>
+
+        <div class="footer__col footer__col--right">
+          <ul class="footer__socials">
+            <li>
+              <a class="footer__social" href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="X">
+                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const header = document.querySelector(".header");
+      const toggle = document.querySelector(".header__toggle");
+
+      function setMenu(open) {
+        header.classList.toggle("header--open", open);
+        toggle.setAttribute("aria-expanded", open);
+      }
+
+      toggle.addEventListener("click", () => {
+        setMenu(!header.classList.contains("header--open"));
+      });
+
+      document.querySelectorAll(".nav__link").forEach((link) => {
+        link.addEventListener("click", () => setMenu(false));
+      });
+    </script>
+    <script src="script.js" defer></script>
+  </body>
+</html>

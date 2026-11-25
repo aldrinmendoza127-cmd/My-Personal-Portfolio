@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mendoza A. | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a class="header__logo" href="#hero">Mendoza A.</a>
+
+        <button
+          class="header__toggle"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+          <span class="header__bar"></span>
+        </button>
+
+        <nav class="header__nav nav" id="main-nav" aria-label="Main">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#hero">Hero</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="hobbies.html"
+                >Hobbies &amp; Interests</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="favorites.html">Favorites</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="dreams.html">Dreams</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="page__body">
+        <aside class="page__sidebar card">
+          <div class="card__photo">
+            <img
+              class="card__img"
+              src="assets/aldrin__hero-image.png"
+              alt="Portrait photo"
+            />
+          </div>
+          <h2 class="card__name">Aldrin Mendoza</h2>
+          <p class="card__bio">Computer Science Student - BSCS 1A</p>
+          <ul class="card__socials">
+            <li><a class="card__social" href="#">Instagram</a></li>
+            <li><a class="card__social" href="#">GitHub</a></li>
+            <li><a class="card__social" href="#">YouTube</a></li>
+          </ul>
+        </aside>
+
+        <main class="page__content">
+          <section class="section hero" id="hero">
+            <h1 class="hero__title">
+              <span class="hero__line">Hello There, Everyone! </span>
+              <span class="hero__line hero__line--accent"
+                >Welcome to My Personal Website!</span
+              >
+            </h1>
+            <p class="hero__text">
+              Hi! I'm Aldrin Mendoza, a Bachelor of Science in Computer Science
+              student. This website is all about me, my interests, skills,
+              experiences, and the people who are part of my life. Feel free to
+              explore and get to know me better!
+            </p>
+            <div class="hero__tiles">
+              <a class="tile tile--red" href="#about">
+                <h2 class="tile__title">About me</h2>
+              </a>
+              <a class="tile tile--white" href="#gallery">
+                <h2 class="tile__title">See the gallery</h2>
+              </a>
+            </div>
+          </section>
+
+          <section class="section about" id="about">
+            <h2 class="section__title">About Me</h2>
+            <p class="section__text">
+              My name is Aldrin Mendoza, and I am a first-year college student
+              taking Bachelor of Science in Computer Science (BSCS). I am
+              someone who enjoys learning new things and exploring different
+              experiences.
+            </p>
+            <p class="section__text">
+              I may not know everything yet, but I am always willing to learn
+              and improve myself. I believe that every challenge is an
+              opportunity to grow and become a better person.
+            </p>
+            <p class="section__text">
+              My goal is to gain more knowledge, develop my skills, and achieve
+              my dreams through hard work and determination.
+            </p>
+            <figure class="about__motto">
+              <figcaption class="about__motto-label">My Motto</figcaption>
+              <blockquote class="about__motto-text">
+                &ldquo;Never stop learning, because life never stops
+                teaching.&rdquo;
+              </blockquote>
+            </figure>
+          </section>
+
+          <section class="section hobbies" id="hobbies">
+            <h2 class="section__title">My Hobbies and Interests</h2>
+            <p class="section__text hobbies__intro">
+              During my free time, I enjoy doing different activities that make
+              me happy and relaxed.
+            </p>
+            <ul class="hobbies__list">
+              <li class="hobbies__item">
+                <h3 class="hobbies__name">Playing Online Games</h3>
+                <p class="hobbies__desc">
+                  I enjoy playing online games because they help me relax and
+                  have fun.
+                </p>
+              </li>
+              <li class="hobbies__item">
+                <h3 class="hobbies__name">Playing Basketball</h3>
+                <p class="hobbies__desc">
+                  Basketball is one of the activities I enjoy because it keeps
+                  me active.
+                </p>
+              </li>
+              <li class="hobbies__item">
+                <h3 class="hobbies__name">Coding and Learning Tech</h3>
+                <p class="hobbies__desc">
+                  I enjoy trying out new code and tech because I love learning
+                  new things.
+                </p>
+              </li>
+              <li class="hobbies__item">
+                <h3 class="hobbies__name">Listening to Music</h3>
+                <p class="hobbies__desc">
+                  Music helps me unwind and stay focused after a long day.
+                </p>
+              </li>
+              <li class="hobbies__item">
+                <h3 class="hobbies__name">Watching Movies and Series</h3>
+                <p class="hobbies__desc">
+                  I like watching stories unfold because it is a great way to
+                  rest.
+                </p>
+              </li>
+              <li class="hobbies__item">
+                <h3 class="hobbies__name">Exploring New Experiences</h3>
+                <p class="hobbies__desc">
+                  I enjoy trying different things because every experience
+                  teaches me something.
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section gallery" id="gallery">
+            <h2 class="section__title">Gallery</h2>
+            <ul class="gallery__grid">
+              <li class="gallery__item">
+                <img
+                  class="gallery__img"
+                  src="assets/photo1.jpg"
+                  alt="Gallery photo 1"
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__img"
+                  src="assets/photo2.jpg"
+                  alt="Gallery photo 2"
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__img"
+                  src="assets/photo3.jpg"
+                  alt="Gallery photo 3"
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__img"
+                  src="assets/photo4.jpg"
+                  alt="Gallery photo 4"
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__img"
+                  src="assets/photo5.jpg"
+                  alt="Gallery photo 5"
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__img"
+                  src="assets/photo6.jpg"
+                  alt="Gallery photo 6"
+                />
+              </li>
+            </ul>
+          </section>
+
+          <section class="section favorites" id="favorites">
+            <h2 class="section__title">My Favorites</h2>
+            <p class="section__text favorites__intro">
+              Here are some of the things I personally enjoy and love.
+            </p>
+            <ul class="favorites__list">
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/blackAndwhite.png"
+                  alt="Favorite color"
+                />
+                <div class="favorites__body">
+                  <h3 class="favorites__label">Favorite Color</h3>
+                  <p class="favorites__value">Black and white</p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/adobo.jpg"
+                  alt="Favorite food"
+                />
+                <div class="favorites__body">
+                  <h3 class="favorites__label">Favorite Food</h3>
+                  <p class="favorites__value">Chicken Adobo</p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/coke.jpg"
+                  alt="Favorite drink"
+                />
+                <div class="favorites__body">
+                  <h3 class="favorites__label">Favorite Drink</h3>
+                  <p class="favorites__value">Coke</p>
+                </div>
+              </li>
+              <li class="favorites__item">
+                <img
+                  class="favorites__img"
+                  src="assets/basketball.jpg"
+                  alt="Favorite sport"
+                />
+                <div class="favorites__body">
+                  <h3 class="favorites__label">Favorite Sport</h3>
+                  <p class="favorites__value">Basketball</p>
+                </div>
+              </li>
+              <li class="favorites__item favorites__item--wide">
+                <img
+                  class="favorites__img favorites__img--wide"
+                  src="assets/valorant.jpg"
+                  alt="Favorite hobby"
+                />
+                <div class="favorites__body">
+                  <h3 class="favorites__label">Favorite Hobby</h3>
+                  <p class="favorites__value">Playing Online Games</p>
+                </div>
+              </li>
+            </ul>
+            <p class="section__text favorites__outro">
+              These little things make my everyday life more enjoyable and
+              meaningful.
+            </p>
+          </section>
+
+          <section class="section dreams" id="dreams">
+            <h2 class="section__title">My Dreams and Bucket List</h2>
+            <p class="section__text">
+              Everyone has dreams, and I am no exception. I have goals that I
+              want to achieve through patience, hard work, and determination.
+            </p>
+            <p class="dreams__highlight">
+              My biggest dream is to graduate from college and become a
+              successful IT professional.
+            </p>
+            <h3 class="dreams__subtitle">My Goals in Life</h3>
+            <ul class="dreams__list">
+              <li class="dreams__item">
+                <p class="dreams__text">Finish my BSCS degree.</p>
+              </li>
+              <li class="dreams__item">
+                <p class="dreams__text">Improve my programming skills.</p>
+              </li>
+              <li class="dreams__item">
+                <p class="dreams__text">
+                  Learn different programming languages.
+                </p>
+              </li>
+              <li class="dreams__item">
+                <p class="dreams__text">Get a stable job in the future.</p>
+              </li>
+              <li class="dreams__item">
+                <p class="dreams__text">Help my family financially.</p>
+              </li>
+              <li class="dreams__item">
+                <p class="dreams__text">Travel to different places.</p>
+              </li>
+              <li class="dreams__item dreams__item--wide">
+                <p class="dreams__text">Become successful and independent.</p>
+              </li>
+            </ul>
+            <p class="section__text dreams__outro">
+              I know that achieving my dreams will not be easy, but I am willing
+              to work hard for my future.
+            </p>
+          </section>
+
+          <section class="section contact" id="contact">
+            <h2 class="section__title">Contact</h2>
+            <form class="contact__form" action="#" method="post">
+              <div class="contact__field">
+                <label class="contact__label" for="name">Name</label>
+                <input
+                  class="contact__input"
+                  id="name"
+                  name="name"
+                  type="text"
+                  required
+                />
+              </div>
+              <div class="contact__field">
+                <label class="contact__label" for="email">Email</label>
+                <input
+                  class="contact__input"
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                />
+              </div>
+              <div class="contact__field">
+                <label class="contact__label" for="message">Message</label>
+                <textarea
+                  class="contact__input"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button class="contact__button" type="submit">
+                Send message
+              </button>
+            </form>
+          </section>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__col footer__col--left">
+          <ul class="footer__contact">
+            <li class="footer__item">
+              <i
+                class="footer__icon fa-solid fa-envelope"
+                aria-hidden="true"
+              ></i>
+              <a class="footer__link" href="mailto:hello@placeholder.com"
+                >0326-1511@lspu.edu.ph</a
+              >
+            </li>
+            <li class="footer__item">
+              <i class="footer__icon fa-solid fa-phone" aria-hidden="true"></i>
+              <a class="footer__link" href="tel:+000000000000"
+                >+63 995 3609 627</a
+              >
+            </li>
+            <li class="footer__item">
+              <i
+                class="footer__icon fa-solid fa-location-dot"
+                aria-hidden="true"
+              ></i>
+              <address class="footer__address">San Pablo City, Laguna</address>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--center">
+          <p class="footer__copy">
+            &copy; PlaceHolder. All rights reserved.<br />
+            Designed, coded and made by PlaceHolder.
+          </p>
+        </div>
+
+        <div class="footer__col footer__col--right">
+          <ul class="footer__socials">
+            <li>
+              <a class="footer__social" href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer__social" href="#" aria-label="X">
+                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const header = document.querySelector(".header");
+      const toggle = document.querySelector(".header__toggle");
+
+      function setMenu(open) {
+        header.classList.toggle("header--open", open);
+        toggle.setAttribute("aria-expanded", open);
+      }
+
+      toggle.addEventListener("click", () => {
+        setMenu(!header.classList.contains("header--open"));
+      });
+
+      document.querySelectorAll(".nav__link").forEach((link) => {
+        link.addEventListener("click", () => setMenu(false));
+      });
+    </script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
